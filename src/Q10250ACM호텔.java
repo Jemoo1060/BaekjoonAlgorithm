@@ -25,7 +25,7 @@ public class Q10250ACM호텔 {
                 c = H;
                 b = A/H;
             }
-            
+
             System.out.println(c*100 + b);
         }
 
