@@ -2,13 +2,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
 public class Q1002터렛 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());
         StringBuilder check = new StringBuilder();
 
-        while (T-- > 0) {
+        while (N-- > 0) {
             String input = br.readLine();
 
             String[] split = input.split(" ");
