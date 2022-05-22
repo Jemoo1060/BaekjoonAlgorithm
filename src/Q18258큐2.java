@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class Q18258큐2 {
-    
+
     public static LinkedList<Integer> list = new LinkedList<>();
 
     public static void main(String[] args) throws IOException {
