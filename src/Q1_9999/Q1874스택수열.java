@@ -1,3 +1,5 @@
+package Q1_9999;
+
 import java.util.Scanner;
 import java.util.Stack;
 

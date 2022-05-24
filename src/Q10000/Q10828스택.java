@@ -1,3 +1,5 @@
+package Q10000;
+
 import java.util.Scanner;
 import java.util.Stack;
 

@@ -1,3 +1,5 @@
+package Q1_9999;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

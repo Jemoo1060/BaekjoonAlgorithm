@@ -1,3 +1,5 @@
+package Q1_9999;
+
 import java.util.Scanner;
 
 public class Q2839설탕배달 {

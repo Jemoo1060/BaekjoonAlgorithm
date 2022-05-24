@@ -1,3 +1,5 @@
+package Q1_9999;
+
 import java.io.*;
 
  public class Q2869달팽이는올라가고싶다 {
