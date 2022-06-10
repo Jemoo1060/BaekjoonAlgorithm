@@ -1,6 +1,10 @@
 package Q1_9999;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Q2110공유기설치 {
 
