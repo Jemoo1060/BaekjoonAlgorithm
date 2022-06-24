@@ -63,5 +63,5 @@ public class Q10815숫자카드 {
         }
         return -1;
     }
-    
+
 }
