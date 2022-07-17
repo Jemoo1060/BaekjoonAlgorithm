@@ -12,21 +12,21 @@ public class Q13305주유소 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
-        int[] distance = new int[N-1];
-        int[] price = new int[N];
+        long[] distance = new long[N-1];
+        long[] price = new long[N];
 
         StringTokenizer st = new StringTokenizer(br.readLine());
         for(int i = 0; i < N -1; i++){
-            distance[i] = Integer.parseInt(st.nextToken());
+            distance[i] = Long.parseLong(st.nextToken());
         }
 
         st = new StringTokenizer(br.readLine());
         for(int i = 0; i < N; i++){
-            price[i] = Integer.parseInt(st.nextToken());
+            price[i] = Long.parseLong(st.nextToken());
         }
 
-        int result = price[0] * distance[0];
-        int min = price[0];
+        long result = price[0] * distance[0];
+        long min = price[0];
 
         for(int i = 1; i < price.length-1; i++){
             if(price[i] < min){
